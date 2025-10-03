@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FST Marrakech - Faculté des Sciences et Techniques</title>
+    
+</head>
+<body>
+    <!-- Navigation en etre les pages de notre site web -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                
+                <img src="images/logo fstg.png" alt="Logo FST Marrakech" class="logo-img">
+                <div class="logo-text">
+                    <h1>FST Marrakech</h1>
+                    <small>Faculté des Sciences et Techniques</small>
+                </div>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#formation">Formation ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#lst">Licence (LST)</a>
+                        <a href="#mst">Master (MST)</a>
+                        <a href="#ingenieur">Cycle Ingénieur</a>
+                        <a href="#doctorat">Doctorat</a>
+                    </div>
+                </li>
+                <li><a href="#vie-estudiantine">Vie Estudiantine</a></li>
+                <li><a href="#recherche">Recherche</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <h2>Bienvenue à la FST Marrakech</h2>
+        <p>Excellence académique et innovation au cœur de la formation scientifique et technique</p>
+        <a href="#formations" class="btn">Découvrir nos formations</a>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="icon">🎓</div>
+                <h3>5000+</h3>
+                <p>Étudiants</p>
+            </div>
+            <div class="stat-card">
+                <div class="icon">👨‍🏫</div>
+                <h3>200+</h3>
+                <p>Enseignants</p>
+            </div>
+            <div class="stat-card">
+                <div class="icon">📚</div>
+                <h3>30+</h3>
+                <p>Filières</p>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🔬</div>
+                <h3>150+</h3>
+                <p>Doctorants</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actualités Section -->
+    <section class="actualites">
+        <h2 class="section-title">Actualités</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-image">📅</div>
+                <div class="news-content">
+                    <div class="news-date">03 Octobre 2025</div>
+                    <h3>Emplois du Temps</h3>
+                    <p>Mise à jour des emplois du temps pour tous les niveaux : Troncs Communs, LST, MST et Cycle Ingénieur.</p>
+                    <a href="#" class="read-more">Lire plus →</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image">🎯</div>
+                <div class="news-content">
+                    <div class="news-date">01 Octobre 2025</div>
+                    <h3>Orientation en LST</h3>
+                    <p>Publication des listes d'orientation en Licence Sciences et Techniques pour l'année 2025-2026.</p>
+                    <a href="#" class="read-more">Lire plus →</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image">🏆</div>
+                <div class="news-content">
+                    <div class="news-date">24 Septembre 2025</div>
+                    <h3>Concours Cycle Ingénieur</h3>
+                    <p>Résultats du concours d'accès en 1ère et 2ème année du cycle ingénieur disponibles.</p>
+                    <a href="#" class="read-more">Lire plus →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formations Section -->
+    <section class="formations" id="formations">
+        <div class="formations-container">
+            <h2 class="section-title">Nos Formations</h2>
+            <div class="formation-cards">
+                <div class="formation-card">
+                    <div class="icon">📖</div>
+                    <h3>Licence (LST)</h3>
+                    <p>Formations spécialisées en sciences et techniques avec diverses options professionnelles.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+                <div class="formation-card">
+                    <div class="icon">🎓</div>
+                    <h3>Master (MST)</h3>
+                    <p>Programmes de master recherche et spécialisés dans divers domaines scientifiques.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+                <div class="formation-card">
+                    <div class="icon">⚙️</div>
+                    <h3>Cycle Ingénieur</h3>
+                    <p>Formation d'ingénieurs d'État dans 8 filières spécialisées.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+                <div class="formation-card">
+                    <div class="icon">🔬</div>
+                    <h3>Doctorat</h3>
+                    <h3>Pôle Doctoral</h3>
+                    <p>Recherche avancée et formation doctorale dans plusieurs structures de recherche.</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>📍 Av. Abdelkrim Khattabi, BP 549</li>
+                    <li>📞 +212 5244-33404</li>
+                    <li>✉️ contact@fstg-marrakech.ac.ma</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="#">Espace Étudiant</a></li>
+                    <li><a href="#">Espace Enseignant</a></li>
+                    <li><a href="#">Bibliothèque</a></li>
+                    <li><a href="#">Scolarité</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Formations</h3>
+                <ul>
+                    <li><a href="#">Licence</a></li>
+                    <li><a href="#">Master</a></li>
+                    <li><a href="#">Cycle Ingénieur</a></li>
+                    <li><a href="#">Doctorat</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FST Marrakech. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
